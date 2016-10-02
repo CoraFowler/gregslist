@@ -1,3 +1,4 @@
+/*{font styles - everything, etc for entire page} */
 body{
 margin: 0;
 padding:0;
@@ -13,9 +14,9 @@ font-family: 'Arial', serif;
 			margin:0px;
 			position: fixed;
 }
-.postaccount >li {
+.postaccount /*>*/li {
 	display: inline-block;
-	padding: 0 10px 0 10px;
+	padding: 0 10px /*0 10px*/;
 }
 .postaccount li a {
 	text-decoration: none;
@@ -33,7 +34,7 @@ font-family: 'Arial', serif;
 	padding:90px 0px 40px 90px;
 }
 input[type='text'] {
-    background-image: url(magnifying-glass.png);
+    background-image: url("magnifying-glass.png"); /*use qoutes when you add urls */
     background-repeat: no-repeat;
     background-position: right;
     background-size: 20px 20px;
@@ -49,7 +50,7 @@ ul.pagenav li {display: inline;}
 
 ul.pagenav li a {
 	color: black;
-    float: left;
+    /*float: left;anchor tags are default inline*/
     padding: 8px 16px;
     text-decoration: none;
     border: 1px solid #ddd;
